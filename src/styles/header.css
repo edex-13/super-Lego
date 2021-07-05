@@ -1,0 +1,23 @@
+.header{
+    grid-area: header;
+    display:flex;
+    align-items: center;
+    gap:30px;
+    padding-left: 30px;
+}
+.header__logo{
+    width:50px;
+}
+.nav-container{
+    width: 80%;
+}
+.nav-container > ul{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.nav-item > a{
+    color:var(--red);
+    text-decoration: none;
+}
