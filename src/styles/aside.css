@@ -1,0 +1,26 @@
+.aside{
+    grid-area: aside;
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    align-items: center;
+
+}
+.aside p{
+    transform: rotate(-90deg);
+    font-size: 36px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.aside img{
+    width:100%;
+    grid-column: 2/6;
+    grid-row: 1/2;
+    z-index: 10;
+}
+.aside div{
+    width:100%;
+    height:100%;
+    grid-column: 4/7;
+    grid-row: 1/2;
+    background-color: var(--yellow);
+}

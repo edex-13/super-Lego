@@ -2,6 +2,7 @@
 @import "./loader.css";
 @import "./header.css";
 @import "./section-main.css";
+@import "./aside.css";
 :root{
     --yellow: #ffd602;
     --red: #d5040a;
