@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap');
 @import "./loader.css";
 @import "./header.css";
+@import "./section-main.css";
 :root{
     --yellow: #ffd602;
     --red: #d5040a;
