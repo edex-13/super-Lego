@@ -6,6 +6,7 @@
     align-items: center;
     gap:30px;
     padding-left: 30px;
+    animation: 1.2s main-content 2.6s ease-in-out;
 }
 .main-content__title {
     font-size: 48px;
@@ -21,4 +22,12 @@
 .main-content__content{
     width:60%;
     line-height: 23px;
+}
+@keyframes main-content {
+    0%{
+        transform:translateX(-700px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
 }
