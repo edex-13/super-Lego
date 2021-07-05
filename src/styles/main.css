@@ -3,6 +3,7 @@
 @import "./header.css";
 @import "./section-main.css";
 @import "./aside.css";
+@import "./footer.css";
 :root{
     --yellow: #ffd602;
     --red: #d5040a;
