@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap');
 @import "./loader.css";
+:root{
+    --yellow: #ffd602;
+    --red: #d5040a;
+    --blue: #036cb6;
+    --white: #fff;
+}
 *{
     padding: 0;
     margin: 0;
