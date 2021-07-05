@@ -4,6 +4,7 @@
     align-items: center;
     gap:30px;
     padding-left: 30px;
+    animation: .8s header 2.6s ease-in-out;
 }
 .header__logo{
     width:50px;
@@ -20,4 +21,12 @@
 .nav-item > a{
     color:var(--red);
     text-decoration: none;
+}
+@keyframes header {
+    0%{
+        transform:translateY(-200px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
 }
