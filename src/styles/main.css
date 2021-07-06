@@ -4,6 +4,7 @@
 @import "./section-main.css";
 @import "./aside.css";
 @import "./footer.css";
+@import "./modal.css";
 :root{
     --yellow: #ffd602;
     --red: #d5040a;
